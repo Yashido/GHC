@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    place-items: center;
+}
+:root {
+    --border: #108c9d;
+}
+.card {
+    aspect-ratio: 1 / 1.6;
+    border: 0.5vmin solid var(--border);
+    cursor: pointer;
+    position: relative;
+    width: 56vmin;
+}
